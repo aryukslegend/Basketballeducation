@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galeri Basket</title>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body dan font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* biru muda alami */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #00695c; /* hijau tua */
+  padding: 15px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background-color: #004d40;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #00796b;
+}
+
+/* Bagian hero (konten utama) */
+.hero {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 100px;
+  border-radius: 12px;
+}
+
+/* Judul besar */
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #004d40;
+  border-bottom: 3px solid #004d40;
+  padding-bottom: 8px;
+}
+
+/* Paragraf di hero */
+.hero p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+/* Galeri gambar */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Tombol WA di halaman contact */
+.wa-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.wa-button:hover {
+  background-color: #1ebe5d;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #004d40;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">Tentang Basket</a>
+      <a href="gallery.html">Galeri</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Playing</h2>
+    <img src="image/basketball2.jpeg" alt="last" width="300" height="500">
+    <img src="image/baliku.tour.jpeg" alt="tour" width="300" height="500">
+    <img src="image/dubes.fungame.jpeg" alt="Alumni Dubes" width="500" height="350">
+  </section>
+
+  <section class="hero">
+    <h2>Coaching</h2>
+    <img src="image/coach.jpeg" alt="coach" width="350" height="500">
+    <img src="image/ngajar 2.jpg" alt="melatih" width="500" height="350">
+    <img src="image/ngajar 3.jpg" alt="ngelatih" width="500" height="350">
+  </section>
+
+  <section class="hero">
+    <h2>Video</h2>
+    <video width="350" height="500" controls>
+      <source src="image/video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <footer>
+    <p>© 2025 BasketKu</p>
+  </footer>
+</body>
+</html>
